@@ -1,3 +1,12 @@
+.homeDiv{
+    background-color: #000;
+    height: 100vh;
+    background-position: center;
+    color: white;
+}
+.profileImage{
+    border-radius: 50%;
+}
 .nameDiv{
     align-items: center;
     justify-content: center;
@@ -6,15 +15,41 @@
 .myName{
     align-items: center;
 }
-.myfirstDiv{
-    border:2px solid black;
-}
-.skillsDiv{
+.skillDiv{
     display: grid;
-    height: auto;
-    grid-template-columns: repeat(2, 200px);
-    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.secondRow{
+    display: grid;
     justify-content: center;
-    height: 50%;
-    align-items: center;
+    margin-top: 10px;
+}
+.cardImage{
+    background-image: url('../Images/Coursera JavaScript.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.cardImage2{
+    background-image: url('../Images/Coursera GitHub.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.cardImage3{
+    background-image: url('../Images/javaC.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.cardImage4{
+    background-image: url('../Images/versionControl.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.certificate{
+    border-radius: 10px;
+}
+.certificateContainer{
+    display: grid;
+    justify-content: center;
 }
