@@ -1,3 +1,20 @@
-.container{
-    
+.nameDiv{
+    align-items: center;
+    justify-content: center;
+}
+
+.myName{
+    align-items: center;
+}
+.myfirstDiv{
+    border:2px solid black;
+}
+.skillsDiv{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 200px);
+    width: 100%;
+    justify-content: center;
+    height: 50%;
+    align-items: center;
 }

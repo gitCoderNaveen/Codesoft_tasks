@@ -13,40 +13,55 @@ import mern from '../Images/mern.png'
 
 export default function Home() {
 
-    const textStyle = {
-        width: '25%'
+    const progress={
+        width:'100%'
+    }
+
+    const skilsImage = {
+        width: '80%',
+        height: '80%'
+    }
+
+    const pBar2 = {
+        width: '80%'
     }
     return (
         <div>
-            <div class="container" height={300}>
-                <h1 class="float-start">Naveen kumar.S</h1>
-                <img src={naveen} class="rounded float-end" alt="myImage" width={200} />
+            <div class="d-flex justify-content-between mb-3 myfirstDiv">
+                <div class="p-2 mt-5 nameDiv"><h1 className='myName'>Naveen kumar.S</h1></div>
+                <img src={naveen} alt='Naveen' width={200} />
             </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src={html} alt='HTML' style={textStyle} />
+            <div class="container skillsDiv">                
+                    <img class='rounded float-start' src={html} alt='HTML' style={skilsImage} />
+                    <div>                           
+                    <div class="progress" style={progress}> 
+                        <div class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style={pBar2} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div clss="col">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style={textStyle} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    </div>  
+            </div>
+            <div class="container skillsDiv">                
+                    <img class='rounded float-start' src={css} alt='HTML' style={skilsImage} />
+                    <div>                           
+                    <div class="progress" style={progress}> 
+                        <div class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style={pBar2} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <img src={html} alt='HTML' style={textStyle} />
+                    </div>  
+            </div>
+            <div class="container skillsDiv">                
+                    <img class='rounded float-start' src={javaScript} alt='HTML' style={skilsImage} />
+                    <div>                           
+                    <div class="progress" style={progress}> 
+                        <div class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style={pBar2} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div clss="col">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style={textStyle} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    </div>  
+            </div>
+            <div class="container skillsDiv">                
+                    <img class='rounded float-start' src={mern} alt='HTML' style={skilsImage} />
+                    <div>                           
+                    <div class="progress" style={progress}> 
+                        <div class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style={pBar2} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                </div>
-                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style={textStyle}></div>
-                </div>
+                    </div>  
             </div>
         </div>
     )
