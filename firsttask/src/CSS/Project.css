@@ -1,0 +1,13 @@
+.projectsMainDiv{
+    color: white;
+}
+.headerDiv{
+    border-radius: 20px;
+}
+.busProjectImg{
+    border-radius: 50%;
+    width: 7rem;
+}
+.busProjectText{
+    color: black;
+}

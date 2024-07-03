@@ -53,3 +53,17 @@
     display: grid;
     justify-content: center;
 }
+.gitHubLogo{
+    border: none;
+    border-radius: 50%;
+}
+.gitHublink{
+    text-decoration: none;
+    color: white;
+}
+.gitHubContainer{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}

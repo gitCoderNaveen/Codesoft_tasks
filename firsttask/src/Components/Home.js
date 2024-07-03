@@ -1,23 +1,23 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import firstNav from '../Images/firstNav.jpg'
-import secondNav from '../Images/secondNav.jpg'
-import thirdNav from '../Images/thirdNav.jpg'
 import '../CSS/Home.css'
 import naveen from '../Images/naveen.jpg'
 import html from '../Images/html.png'
 import css from '../Images/css.png'
 import javaScript from '../Images/javaScript.png'
 import mern from '../Images/mern.png'
-import greeting from '../Images/greeting.jpg'
-import javaS from '../Images/Coursera JavaScript.jpg'
+import gitHubL from '../Images/gitHubLogo.webp'
 
 export default function Home() {
 
-    const certificate1 ={
-        width:'30rem',
-        height:'20rem'
+    const gitHubDiv = {
+        height: '50vh'
+    }
+
+    const certificate1 = {
+        width: '30rem',
+        height: '20rem'
     }
     const progressBar1 = {
         width: '86%'
@@ -109,37 +109,52 @@ export default function Home() {
                         <h1>JavaScript</h1>
                         <div class="card cardImage" style={certificate1}>
                             <div class="card-body">
-                                
-                            </div>                      
+
+                            </div>
                         </div>
                     </div>
                     <div className='col mt-4 certificate'>
-                    <h1>GitHub</h1>
+                        <h1>GitHub</h1>
                         <div class="card cardImage2" style={certificate1}>
                             <div class="card-body">
-                                
-                            </div>                        
+
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
                     <div className='col mt-4 mb-4 certificate'>
-                    <h1>Java</h1>
+                        <h1>Java</h1>
                         <div class="card cardImage3" style={certificate1}>
                             <div class="card-body">
-                                
-                            </div>                     
+
+                            </div>
                         </div>
                     </div>
                     <div className='col mt-4 mb-4 certificate'>
-                    <h1>VersionControl</h1>
+                        <h1>VersionControl</h1>
                         <div class="card cardImage4" style={certificate1}>
                             <div class="card-body">
-                                
-                            </div>                      
+
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='container-fluid gitHubContainer bg-primary' style={gitHubDiv} >
+                <div className='row'>
+                    <div className='col'>
+                        <img className='gitHubLogo p-4' src={gitHubL} alt='gitHubLogo' width={300} />
+                    </div>
+                    <div className='col'>
+                        <div className='githubText'>
+                            <h1 className='p-2 mt-5'><a className='gitHublink' href='https://github.com/gitCoderNaveen'>GitHub Naveen</a></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='container-fluid bg-dark'>
+                <h3>&lt;&lt;&lt; &copy; Naveen kumar.S | 2024 &gt;&gt;&gt;</h3>
             </div>
         </div>
     )
