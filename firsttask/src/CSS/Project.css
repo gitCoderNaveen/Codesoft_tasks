@@ -4,10 +4,37 @@
 .headerDiv{
     border-radius: 20px;
 }
+.projectContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    
+}
 .busProjectImg{
     border-radius: 50%;
     width: 7rem;
+    margin: 3px;
 }
 .busProjectText{
+    display: grid;
+    align-items: center;
+    text-align: left;
     color: black;
+    width: 150%;
+    /* border:2px solid black; */
+}
+.descContainer{
+    border-radius: 10px;
+}
+.ecommerceImg{
+    border-radius: 50%;
+    width: 8rem;
+    height: 7rem;
+    margin:3px;
+}
+.ecommerceText{
+    display: grid;
+    text-align: left;
+    color: black;
+    width: 180%;
+    /* border:2px solid black; */
 }
