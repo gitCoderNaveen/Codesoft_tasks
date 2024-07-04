@@ -4,3 +4,27 @@
 .introImage{
     border-radius: 50%;
 }
+.skillsDiv{
+    display: grid;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin:10px 0 10px 0;
+}
+.skillsCard{
+    color: white;
+}
+.skillName{
+    border-radius: 10px;
+}
+.internDiv{
+    border-radius: 10px;
+}
+.internSubDiv{
+    border-radius: 10px;
+}
+.internName{
+    text-align: left;
+}
+.internDesc{
+    text-align: left;
+}
