@@ -8,47 +8,31 @@ import '../CSS/Contact.css'
 
 export default function Contact() {
   const iconHeight = {
-    width: '50px',
+    width: '5rem'
   }
   return (
     <div>
       <div className='container-fluid bg-dark contactDiv'>
         <h1>Contact us</h1>
-        <div className='container bg-secondary bg-gradient contactSubDiv'>
-          <div className='row'>
-            <div className='col'>
-              <img src={phone} className='image' alt='phoneIcon' style={iconHeight} />
-            </div>
-            <div className='col'>
-              <h2 className='text'>+919655698389</h2>
-            </div>
+        <div className='contactDetails bg-secondary bg-gradient'>
+          <div className='imageDivision'>
+            <img className='imageEdit' src={phone} alt='myPhone' style={iconHeight}/>
+            <h2 className='textEdit'>+919655598389</h2>
           </div>
-          <div className='row'>
-            <div className='col'>
-              <img src={Email} className='image' alt='phoneIcon' style={iconHeight} />
-            </div>
-            <div className='col'>
-              <h2 className='text'>naveenbsc.mca1518@gmail.com</h2>
-            </div>
+          <div className='imageDivision'>
+            <img className='imageEdit' src={linkedIn} alt='myPhone' style={iconHeight}/>
+            <h2 className='textEdit'>www.linkedin.com/in/thisisnaveen24</h2>
           </div>
-          <div className='row'>
-            <div className='col'>
-              <img src={linkedIn} className='image' alt='phoneIcon' style={iconHeight} />
-            </div>
-            <div className='col'>
-              <h2 className='text'>www.linkedin.com/in/thisisnaveen24</h2>
-            </div>
+          <div className='imageDivision'>
+            <img className='imageEdit' src={Email} alt='myPhone' style={iconHeight}/>
+            <h2 className='textEdit'>naveenbsc.mca1518@gmail.com</h2>
           </div>
-          <div className='row'>
-            <div className='col instaCol'>
-              <img src={Instagram} className='image' alt='phoneIcon' style={iconHeight} />
-            </div>
-            <div className='col'>
-              <h2 className='text'>fullstacker's Hub</h2>
-            </div>
+          <div className='imageDivision'>
+            <img className='imageEdit' src={Instagram} alt='myPhone' style={iconHeight}/>
+            <h2 className='textEdit'>fullstacker's Hub</h2>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   )
 }

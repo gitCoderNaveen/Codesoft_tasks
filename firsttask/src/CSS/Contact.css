@@ -1,19 +1,35 @@
 .contactDiv{
+    display: grid;
     color: white;
+    justify-content: center;
+}
+.imageEdit{
+    border-radius: 70%;   
+}
+.contactDetails{
     display: grid;
+    border-radius: 1rem;
+    /* grid-template-columns: repeat(2, 20rem); */
+    gap: 2rem;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-}
-.contactSubDiv{
-    display: grid;
-    align-items: center;
-
-}
-.image{
-    border-radius: 50%;
-    margin: 10px;
-}
-.instaCol{
-    display: flex;
+    width: 50rem;
     border: 2px solid black;
+    margin: 1.5rem;
+}
+.textBox{
+    text-align: left;
+}
+.imageDivision{
+    /* border-radius: 1rem; */
+    text-align: center;
+    /* width: 50rem; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    margin: 1.5rem;
+}
+.textEdit{
+    padding: 2rem;
+    text-align: center;
 }
