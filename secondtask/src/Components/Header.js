@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Tracker() {
+export default function Header() {
   return (
     <div>
-      
+      <h1>Todo-list</h1>
     </div>
   )
 }
