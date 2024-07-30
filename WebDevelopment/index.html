@@ -1,40 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
 </head>
-<body>
-    <header>
-        <a href="#" class="logo">Naveen</a>
 
-        <nav class="navBar">
-            <a href="index.html" class="active">Home</a>
-            <a href="About.html" class="">About</a>
-            <a href="Skills.html" class="">Skills</a>
-            <a href="Project.html" class="">Projects</a>
-            <a href="Resume.html" class="">Resume</a>
-            <a href="Contact.html" class="">Contact</a>
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="BackgroundImage (2).jpg" alt="myImage">
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="bg-primary navBarDiv">
+            <h1 class="logo">Portfolio</h1>
+            <nav class=" bg-primary navBar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="home-content">
-            <h1>Hi I'm <span>Naveen kumar</span></h1>
-            <h3 class="typing-text">I'm a <span> </span></h3>
-            <p>"Your learning ability decides your earning capacity" - Nishant Kasibhatla</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <div class="headerSection container mt-3 mb-3">
+            <div>
+                <img class="myImage" src="./Images/myImage.jpg" alt="myImage" style="width: 18rem;">
             </div>
-            <a href="#" class="btn">Hire Me</a>
+            <div>
+                <h2>Hii.. &#128075; Everyone...</h2>
+                <h1>I'm Naveen kumar.S</h1>
+                <p>I am passionate about full-stack development. This field allows me to explore and integrate both
+                    front-end and back-end technologies, creating cohesive and dynamic web applications. I enjoy the
+                    challenge of designing responsive user interfaces while ensuring robust server-side functionality.
+                    My enthusiasm drives me to continually learn and adopt new tools and frameworks, enabling me to
+                    build efficient and innovative solutions. Whether it's working with HTML, CSS, and JavaScript on the
+                    front end or managing databases and server-side logic on the back end, full-stack development offers
+                    me the perfect blend of creativity and technical expertise.</p>
+            </div>
         </div>
-    </section>
+        <div class="aboutSection" id="about">
+            <div class="container-fluid bg-primary-subtle about-section">
+                <div>
+                    <h1>About Me</h1>
+                    <p>I am a MERN stack developer, specializing in creating dynamic and robust web applications using
+                        MongoDB, Express.js, React, and Node.js. My expertise in the MERN stack enables me to handle
+                        both front-end and back-end development seamlessly, delivering full-stack solutions that are
+                        efficient and scalable. I enjoy the versatility and power of JavaScript and its ecosystem, which
+                        allows me to build feature-rich applications from the ground up. Whether it's designing
+                        intuitive user interfaces with React or managing data and server-side logic with Node.js and
+                        MongoDB, my passion for full-stack development drives me to continuously enhance my skills and
+                        deliver exceptional projects.</p>
+                </div>
+                <div>
+                    <img src="./Images/Mern.png" alt="MernStackDevelopment" style="width: 18rem;">
+                </div>              
+            </div>
+        </div>
+        <div class="skillSection" id="skills">
+            skillsection
+        </div>
+        <div class="projectsSection" id="project">
+            projectsection
+        </div>
+        <div class="resumeSection" id="resume">
+            resumesection
+        </div>
+        <div class="contactSection" id="contact">
+            contactSection
+        </div>
+    </div>
+    <div class="footer bg-primary">
+        <h1>&gt;&gt;&gt;&copy;Naveen kumar | 2024 &lt;&lt;&lt;</h1>
+    </div>
 </body>
+
 </html>

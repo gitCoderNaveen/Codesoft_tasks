@@ -1,0 +1,54 @@
+.container-fluid{
+    color: #fff;
+
+}
+.navBarDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logo{
+    text-align: left;
+    width: 100%;
+    padding-left: 15px;
+    position: absolute;
+    transition:0.5s ease;
+}
+.logo:hover{
+    transform:scaleY(1.5)
+}
+.navBar{
+    position: relative;
+    justify-content: center;
+}
+
+.navBar ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.footer{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.myImage{
+    border-radius: 50%;
+}
+.about-section{
+    color: #000;
+    height: 50vh;
+    display: flex;
+
+}
