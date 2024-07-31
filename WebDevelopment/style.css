@@ -7,19 +7,16 @@
     justify-content: center;
     width: 100%;
 }
-.logo{
-    text-align: left;
-    width: 100%;
-    padding-left: 15px;
-    position: absolute;
-    transition:0.5s ease;
+.logoText a{
+    color: #fff;
 }
 .logo:hover{
-    transform:scaleY(1.5)
+    transform:scale(1.5)
 }
 .navBar{
     position: relative;
     justify-content: center;
+    width: 100%;
 }
 
 .navBar ul{
@@ -48,7 +45,18 @@
 }
 .about-section{
     color: #000;
-    height: 50vh;
+    height: fit-content;
     display: flex;
+    justify-content: center;
+    align-items: center;   
 
+}
+.skillSection{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    justify-content: space-evenly;
+}
+.card-body{
+    text-align: center;
 }

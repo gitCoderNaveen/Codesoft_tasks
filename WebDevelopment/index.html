@@ -12,8 +12,10 @@
 
 <body>
     <div class="container-fluid bg-dark">
-        <div class="bg-primary navBarDiv">
-            <h1 class="logo">Portfolio</h1>
+        <div class="bg-primary navBarDiv fixed-top">
+            <div class="logo">
+                <h1 class="logoText"><a href="#header">Portfolio</a></h1>
+            </div>
             <nav class=" bg-primary navBar">
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -24,7 +26,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="headerSection container mt-3 mb-3">
+        <div class="headerSection container mt-3 mb-3" id="header">
             <div>
                 <img class="myImage" src="./Images/myImage.jpg" alt="myImage" style="width: 18rem;">
             </div>
@@ -55,21 +57,74 @@
                 </div>
                 <div>
                     <img src="./Images/Mern.png" alt="MernStackDevelopment" style="width: 18rem;">
-                </div>              
+                </div>
             </div>
         </div>
-        <div class="skillSection" id="skills">
-            skillsection
+        <div class="skillSection p-2 bg-success bg-gradient" id="skills">
+            <h1>My Skills</h1>
+            <div class="row p-2 m-2">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/html.png" class="card-img-top" alt="html">
+                        <div class="card-body">
+                          <p class="card-text">HTML used to create a structure of a Webpage</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/css.png" class="card-img-top" alt="html">
+                        <div class="card-body">
+                          <p class="card-text">Css used to make design of a Webpage</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/javaScript.png" class="card-img-top" alt="html">
+                        <div class="card-body">
+                          <p class="card-text">Javascript is used to add functionalities to our Webpage</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row p-2 m-2">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/mongodb.webp" class="card-img-top" alt="html" style="height:18rem">
+                        <div class="card-body">
+                          <p class="card-text">It's our database for store the value with secure</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/nodejs.png" class="card-img-top" alt="html" >
+                        <div class="card-body">
+                          <p class="card-text">Middleware framework for Javascript</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./Images/reactJs.png" class="card-img-top" alt="html" style="height:18rem">
+                        <div class="card-body">
+                          <p class="card-text">Javascript library it's used to create user friendly Apps</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </div>
-        <div class="projectsSection" id="project">
-            projectsection
-        </div>
-        <div class="resumeSection" id="resume">
-            resumesection
-        </div>
-        <div class="contactSection" id="contact">
-            contactSection
-        </div>
+    </div>
+    <div class="projectsSection" id="project">
+        projectsection
+    </div>
+    <div class="resumeSection" id="resume">
+        resumesection
+    </div>
+    <div class="contactSection" id="contact">
+        contactSection
+    </div>
     </div>
     <div class="footer bg-primary">
         <h1>&gt;&gt;&gt;&copy;Naveen kumar | 2024 &lt;&lt;&lt;</h1>
