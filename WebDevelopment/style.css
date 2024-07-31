@@ -7,11 +7,15 @@
     justify-content: center;
     width: 100%;
 }
+.logoText{
+    transition: 0.5s ease;
+}
 .logoText a{
     color: #fff;
+    text-decoration: none;
 }
-.logo:hover{
-    transform:scale(1.5)
+.logoText:hover{
+    transform:scale(1.1);
 }
 .navBar{
     position: relative;
