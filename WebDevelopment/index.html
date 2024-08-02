@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
 </head>
 <!-- We going to create 
 
@@ -19,56 +21,214 @@
         =>Footer Section
 
 -->
+
 <body>
-    <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><h1>My Profile</h1></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </section>
-    <!-- ---------------------------- Home Section -------------------------------- -->
-     <section id="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="title">Hii...&#x1F44B; everyone!...</p>
-                    <p class="title">I'm Naveen kumar.S fullstack developer</p>
-                </div>
-                <div class="col-md-6 text-center">
-                  <img src="./Images/myImage.jpg" alt="myImage" class="img-fluid">
-                </div>
-            </div>
+  <section id="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <h1>My Profile</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
         </div>
-        <img src="./Images/wave.jpg" alt="wave" class="bottom-img">
-     </section>
+      </div>
+    </nav>
+  </section>
+  <!-- ---------------------------- Home Section -------------------------------- -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="title">Hii...&#x1F44B; everyone!...</p>
+          <p class="title">I'm Naveen kumar.S fullstack developer</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="./Images/myImage.jpg" alt="myImage" class="img-fluid myImage" style="width: 20rem;">
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ------------------------------ about section --------------------------- -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <section id="about">
+    <div class="container text-center">
+      <h1 class="mytitle">About Me</h1>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="./Images/aboutMern.png" alt="about" class="service-img" style="width: 20rem;">
+        </div>
+        <div class="col-md-6 text-center aboutDiv">
+          <h5>MERN stack Development</h5>
+          <p>I am passionate about MERN stack development, which encompasses MongoDB, Express.js, React.js, and Node.js.
+            This combination of technologies allows me to build powerful, scalable, and efficient web applications. My
+            enthusiasm for the MERN stack drives me to continuously learn and master advanced techniques, ensuring that
+            I stay at the forefront of modern web development</p>
+        </div>
+      </div>
+  </section>
+  <!-- ----------------------Skills section ------------------- -->
+
+  <section id="skills">
+    <div class="container text-center">
+      <h1 class="skillsTitle">Skills</h1>
+      <div class="row text-center">
+        <div class="col-md-4 text-center">
+          <img src="./Images/reactJs.png" alt="reactJs" class="skill-img">
+          <h4>React Js</h4>
+          <p>A javascript Library</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./Images/javaScript.png" alt="JavaScript" class="skill-img">
+          <h4>JavaScript</h4>
+          <p>Functionalities are made by Javascript</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./Images/nodejs.png" alt="nodeJs" class="skill-img">
+          <h4>nodeJs</h4>
+          <p>Middleware language for our webpages</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 text-center">
+          <img src="./Images/mongodb.webp" alt="MongoDB" class="skill-img">
+          <h4>MongoDB</h4>
+          <p>Database for our Webpage</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./Images/html.png" alt="html" class="skill-img">
+          <h4>HTML</h4>
+          <p>Basic structure for our Webpage</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./Images/css.png" alt="Css" class="skill-img">
+          <h4>CSS</h4>
+          <p>Create style for our webpages</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------- Project section --------------------------- -->
+
+  <section id="project">
+    <div class="container">
+      <h1 class="projectTitle tect-center">Projects</h1>
+      <div class="row">
+        <div class="col-md-6 myProjects">
+          <p class="titleMyprojects">BusRoute</p>
+          <ul>
+            <li>This project is used to track our local buses</li>
+            <li>We track the bus timing details of the concurent buses</li>
+            <li>It's fully based MERN stack development</li>
+          </ul>
+        </div>
+        <div class="col-md-6 myProjects">
+          <p class="titleMyprojects">Gaming Project</p>
+          <ul>
+            <li>A fullstack gaming project</li>
+            <li>ReactJs, google-stream these kind of real time tools have been used</li>
+            <li>It have the multiplayer option</li>
+            <li>We have used cookies for storing data's</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 myProjects">
+          <p class="titleMyprojects">Todo list App</p>
+          <ul>
+            <li>To track our daily tasks & inputs </li>
+            <li>Once we complete a task we can strike out it for future reference</li>
+            <li>Delete all the task on we have done it</li>
+            <li>This also a fullstack development project</li>
+          </ul>
+        </div>
+        <div class="col-md-6 myProjects">
+          <p class="titleMyprojects">Dr. Finder</p>
+          <ul>
+            <li>This project is fully based on the Fullstack development</li>
+            <li>Tools that have been used like ReactJs, NodeJs, MongoDB</li>
+            <li>To find the local area Doctors & Hospital details</li>
+            <li>to add some user friendly futures that Doctor performance feedback</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------- Resueme Section ---------------------------- -->
+
+  <section id="Resume">
+    <div class="container resumeDiv">
+      <h1 class="ResuemTitle text-center"><a href="Naveen-FS-Resume.pdf" download>Hire Me!..</a></h1>
+    </div>
+  </section>
+
+  <!--  ------------------------------ Contact Section ---------------------------  -->
+
+  <section id="contact">
+    <div class="container text-center">
+      <h1 class="contactTitle text-center">For connect to Me</h1>
+      <div class="row">
+        <div class="col-md-3 connection">
+          <p>With my gitHub Id</p>
+          <img src="./Images/gitHubLogo.webp" alt="gitHub" style="width: 10rem;">
+          <p><b><a href="https://github.com/gitCoderNaveen">Git Hub</a></b></p>
+        </div>
+        <div class="col-md-3 connection">
+          <p>With my linkedIn</p>
+          <img src="./Images/linkedin.webp" alt="gitHub" style="width: 10rem;">
+          <p><b><a href="www.linkedin.com/in/thisisnaveen24">linkedIn</a></b></p>
+        </div>
+        <div class="col-md-3 connection">
+          <p>With my MailId</p>
+          <img src="./Images/gmail.webp" alt="gitHub" style="width: 10rem;">
+          <p><b><a href="https://gmail.com">Mail</a></b></p>
+        </div>
+        <div class="col-md-3 connection">
+          <p>With my ContactNumber</p>
+          <img src="./Images/call.jpg" alt="gitHub" style="width: 10rem;">
+          <p><b><a href="+9112345678910">Make a Call</a></b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------- Footer Section ------------------------------ -->
+
+  <section id="footer">
+    <div class="container footerDiv">
+      <h3 class="footerTitle text-center">&gt;&gt;&gt;&copy;Naveen kumar.S | Porfolio | 2024 &lt;&lt;&lt;</h3>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
